@@ -1,4 +1,4 @@
-import { Content } from './style';
+import { Content } from './styles';
 import imgVodum from '../../assets/vodum.gif';
 
 
