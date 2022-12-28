@@ -2,16 +2,15 @@ import styled from "styled-components";
 
 
 export const Content = styled.div`
-    width: 2500px;
-    margin: 0 auto;
-
-    position: relative;
 
     img {
-        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    #imgVodumBody  {
+    /*#imgVodumBody  {
         position: absolute;
     }
 
@@ -29,5 +28,5 @@ export const Content = styled.div`
 
     #imgVodumKnots {
         position: absolute;
-    }
+    }*/
 `;

@@ -1,22 +1,32 @@
 import styled from "styled-components";
 
 
-export const Content = styled.section`
-    height: 150vh;
+export const Content = styled.article`
+    height: 180vh;
     width: 100%;
-    
+
     position: relative;
 
+    #imgVodumTitle {
+        display: none;
+
+        width: 20rem;
+        
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
     #imgTraits {
-        width: 20%;
+        width: 12rem;
 
         position: absolute;
-        top: 10%;
-        left: 10%;
+        top: 25%;
+        left: 20%;
     }
 
     #imgHandCrafted { 
-        width: 25%;
+        width: 15rem;
 
         position: absolute;
         top: 30%;
@@ -24,18 +34,26 @@ export const Content = styled.section`
     }
 
     #imgWitchDr {
-        width: 20%;
+        width: 10rem;
 
         position: absolute;
         top: 50%;
         left: 12%;
     }
 
-    #imgVodumName {
-        width: 25%;
+    @media (max-width: 1080px) {
+        height: 180vh;
+    }
 
-        position: absolute;
-        top: 30%;
-        left: 30%;
+    @media (max-width: 720px) {
+        height: 130vh;
+    }
+
+    @media (max-width: 480px) {
+        height: 100vh;
+    }
+
+    @media (max-width: 320px) {
+        height: 80vh;
     }
 `;

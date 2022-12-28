@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
     background: var(--color-purple);
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     width: 100%;
 
     display: flex;
