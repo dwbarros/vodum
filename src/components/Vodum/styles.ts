@@ -2,9 +2,32 @@ import styled from "styled-components";
 
 
 export const Content = styled.div`
-    width: 70%;
+    width: 2500px;
+    margin: 0 auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    #imgVodumBody  {
+        position: absolute;
+    }
+
+    #imgVodumTop {
+        position: absolute;
+    }
+
+    #imgVodumBelly {
+        position: absolute;                                                                                                                                     
+    }
+
+    #imgVodumEyes{
+        position: absolute;
+    }
+
+    #imgVodumKnots {
+        position: absolute;
+    }
 `;

@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 
 export const Content = styled.section`
+    height: 150vh;
     width: 100%;
+    
     position: relative;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     #imgTraits {
         width: 20%;
@@ -17,7 +15,7 @@ export const Content = styled.section`
         left: 10%;
     }
 
-    #imgHandCrafted {
+    #imgHandCrafted { 
         width: 25%;
 
         position: absolute;
@@ -37,6 +35,7 @@ export const Content = styled.section`
         width: 25%;
 
         position: absolute;
-        bottom: 12%;
+        top: 30%;
+        left: 30%;
     }
 `;

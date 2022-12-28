@@ -4,7 +4,6 @@ import openSeaIcon from '../../assets/opensea-logo.svg';
 import { FaTiktok, FaTwitter } from 'react-icons/fa';
 
 
-
 export function Footer() {
     return (
         <Container>

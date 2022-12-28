@@ -9,11 +9,11 @@ import imgVodumName from '../../assets/text_vodum.svg';
 export function NFTImage() {
     return (
         <Content>
-            <Vodum />
             <img id='imgTraits' src={ imgTraits } />
             <img id='imgHandCrafted' src={ imgHandCrafted } />
             <img id='imgWitchDr' src={ imgWitchDr } />
             <img id='imgVodumName' src={ imgVodumName } />
+            <Vodum />
         </Content>
     )
 }
