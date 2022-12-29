@@ -1,32 +1,25 @@
 import styled from "styled-components";
 
 
-export const Content = styled.div`
-
+export const Content = styled.figure`
+    position: relative;
+    
     img {
-        height: 100%;
+        height: 150vh;
+        overflow: hidden;
+
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+            left: 50%;
+
+        transform: translate(-50%, -65vh);
     }
 
-    /*#imgVodumBody  {
-        position: absolute;
-    }
+    #imgVodumTitle {
+        height: auto;
+        width: 182px;
 
-    #imgVodumTop {
-        position: absolute;
+        top: 65vh;
+        
+        transform: translate(-57%, -78vh);
     }
-
-    #imgVodumBelly {
-        position: absolute;                                                                                                                                     
-    }
-
-    #imgVodumEyes{
-        position: absolute;
-    }
-
-    #imgVodumKnots {
-        position: absolute;
-    }*/
 `;

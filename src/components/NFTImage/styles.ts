@@ -2,58 +2,62 @@ import styled from "styled-components";
 
 
 export const Content = styled.article`
-    height: 180vh;
-    width: 100%;
-
+    height: 62vh;
     position: relative;
 
-    #imgVodumTitle {
-        display: none;
-
-        width: 20rem;
-        
-        position: absolute;
-        top: 30%;
-        left: 30%;
-    }
-
     #imgTraits {
-        width: 12rem;
+        width: 20%;
 
         position: absolute;
-        top: 25%;
-        left: 20%;
+            top: -205px;
+            left: 10%;
     }
 
     #imgHandCrafted { 
-        width: 15rem;
+        width: 25%;
 
         position: absolute;
-        top: 30%;
-        right: 13%;
+            top: 100px;
+            right: 25px;
     }
 
     #imgWitchDr {
-        width: 10rem;
+        width: 16%;
 
         position: absolute;
-        top: 50%;
-        left: 12%;
+            top: 150px;
+            left: 10%;
     }
 
-    @media (max-width: 1080px) {
-        height: 180vh;
+/*    @media (max-width: 1080px) {
+        figure {
+            img {
+                height: 130vh;
+            }
+        }
     }
 
     @media (max-width: 720px) {
-        height: 130vh;
+        figure {
+            img {
+                height: 120vh;
+            }
+        }
     }
 
-    @media (max-width: 480px) {
-        height: 100vh;
+    @media (max-width: 500px) {
+        figure {
+            img {
+                height: 110vh;
+            }
+        }
     }
 
     @media (max-width: 320px) {
-        height: 80vh;
-    }
+        figure {
+            img {
+                height: 10                                                                                                                      0vh;
+            }
+        }
+    }*/
 `;

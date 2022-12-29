@@ -1,4 +1,5 @@
 import { Content } from './styles';
+import imgVodumTitle from '../../assets/text_vodum.svg';
 import imgVodumBody from '../../assets/vodum_BODY.png';
 import imgVodumTop from '../../assets/vodum_TOP.gif';
 import imgVodumBelly from '../../assets/vodum_BELLY.gif';
@@ -14,6 +15,7 @@ export function Vodum() {
             <img id='imgVodumBelly' src={ imgVodumBelly } alt="NFT Vodum belly" />
             <img id='imgVodumEyes' src={ imgVodumEyes } alt="NFT Vodum eyes" />
             <img id='imgVodumKnots' src={ imgVodumKnots } alt="NFT Vodum knots" />
+            <img id='imgVodumTitle' src={ imgVodumTitle } />
         </Content>
     )
 }

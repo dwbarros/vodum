@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+
     background: var(--color-purple);
     padding: 3rem 2rem;
-    width: 100%;
+    height: 40vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     
     div {
         display: flex;
