@@ -6,9 +6,9 @@ export const Container = styled.section`
     & > img {
         display: block;
         
+        height: 35vh;
         margin: 0 auto;
-        height: 100vh;
-        padding-bottom: 300px;
-        width: 85%;
+        padding-top: 2rem;
+        width: 80%;
     }
 `;

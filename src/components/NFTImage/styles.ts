@@ -2,62 +2,39 @@ import styled from "styled-components";
 
 
 export const Content = styled.article`
-    height: 62vh;
     position: relative;
+                                                
+    #imgVodum {
+        display: block;
+
+        margin: 0 auto;
+        max-width: 80%;
+        width: 480px;
+
+        transform: translateY(67px)
+    }
 
     #imgTraits {
         width: 20%;
 
         position: absolute;
-            top: -205px;
-            left: 10%;
+            top: 25%;
+            left: 5%;
     }
 
     #imgHandCrafted { 
         width: 25%;
 
         position: absolute;
-            top: 100px;
-            right: 25px;
+            top: 60%;
+            right: 20px;
     }
 
     #imgWitchDr {
         width: 16%;
 
         position: absolute;
-            top: 150px;
-            left: 10%;
+            top: 75%;
+            left: 5%;
     }
-
-/*    @media (max-width: 1080px) {
-        figure {
-            img {
-                height: 130vh;
-            }
-        }
-    }
-
-    @media (max-width: 720px) {
-        figure {
-            img {
-                height: 120vh;
-            }
-        }
-    }
-
-    @media (max-width: 500px) {
-        figure {
-            img {
-                height: 110vh;
-            }
-        }
-    }
-
-    @media (max-width: 320px) {
-        figure {
-            img {
-                height: 10                                                                                                                      0vh;
-            }
-        }
-    }*/
 `;

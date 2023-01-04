@@ -7,30 +7,43 @@ export const Container = styled.footer`
         align-items: center;
 
     background: var(--color-purple);
-    padding: 3rem 2rem;
-    height: 40vh;
+    height: 30vh;
+    padding-top: 4rem;
 
-    
-    div {
+    .logo {
+        width: 120px;
+        max-width: 20%;
+
+        img {
+            width: 100%
+        }
+    }
+
+    .socialLinks {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         a {
-            border: 1px solid var(--color-light);
-            border-radius: 100%;
-            color: var(--textColor-title);
-            height: 48px;
-            width: 48px;
-
             display: flex;
             justify-content: center;
             align-items: center;
 
-            transition: transform 0.4s;
+            height: 40px;
+            width: 100%;
 
+            transition: transform 0.4s;
+            
             img {
                 width: 100%;
+            }
+
+            svg {
+                height: 100%;
+
+                path {
+                    color: var(--color-light);
+                }
             }
 
             & + a {
@@ -40,15 +53,6 @@ export const Container = styled.footer`
             &:hover {
                 transform: translate(0, -5px); 
             }
-        }
-    }
-
-    a {
-        height: 100px;
-
-        & > img {
-            height: 100%;
-            width: 100%;
         }
     }
 `;
