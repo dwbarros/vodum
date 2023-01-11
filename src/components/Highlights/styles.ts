@@ -9,7 +9,7 @@ export const Container = styled.section`
 
     height: 90vh;
     padding: 4rem;
-    
+
     .vodumLogo {
         max-width: 100%;
     }
@@ -19,6 +19,7 @@ export const Container = styled.section`
         align-items: center;
         justify-content: flex-end;
         max-width: 100%;
+        transform: translateY(-30px);
 
         .offLogo__by_text {
             max-width: 100%;
