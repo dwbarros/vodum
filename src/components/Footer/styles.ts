@@ -5,12 +5,9 @@ export const Container = styled.footer`
     display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 10vh;
 
-    background: var(--color-purple);
-    height: 30vh;
-    padding-top: 4rem;
-
-    .logo {
+    .offLogo {
         width: 120px;
         max-width: 20%;
 
@@ -42,7 +39,7 @@ export const Container = styled.footer`
                 height: 100%;
 
                 path {
-                    color: var(--color-light);
+                    color: var(--color-dark);
                 }
             }
 
