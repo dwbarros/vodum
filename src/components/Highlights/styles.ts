@@ -8,6 +8,7 @@ export const Container = styled.section`
         align-items: center;
 
     height: 90vh;
+    padding: 2rem;
 
     div {
         position: relative;
@@ -24,7 +25,7 @@ export const Container = styled.section`
 
             position: absolute;
                 bottom: -8%;
-                right: 15%;
+                right: 8%;
 
             .offLogo__byText {
                 margin-top: 15%;

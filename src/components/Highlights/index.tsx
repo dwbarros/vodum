@@ -20,7 +20,6 @@ export default function Highlights() {
                     </a>
                 </div>
             </div>
-
         </Container>
     )
 }
