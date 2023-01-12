@@ -3,38 +3,42 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     height: 90vh;
-    padding: 4rem;
 
-    .vodumLogo {
-        max-width: 100%;
-    }
-
-    .offLogo {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        max-width: 100%;
-        transform: translateY(-30px);
-
-        .offLogo__by_text {
+    div {
+        position: relative;
+        
+        .vodumLogo {
             max-width: 100%;
-            width: 5%;
-            margin-top: 1rem;
         }
 
-        .offLogo__link {
-            max-width: 100%;
-            margin-left: .5rem;
-        }
+        .offLogo {
+            display: flex;
+                align-items: center;
 
-        a {
-            width: 30%;
-            max-width: 100%;
+            width: 25%;
+
+            position: absolute;
+                bottom: -8%;
+                right: 15%;
+
+            .offLogo__byText {
+                margin-top: 15%;
+                width: 12%;
+            }
+
+            .offLogo__off1566Link {
+                width: 88%;
+
+                img {
+                    margin-left: 10%;
+                    width: 100%;
+                }
+            }
         }
     }
 `;
