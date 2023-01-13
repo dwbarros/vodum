@@ -7,12 +7,17 @@ export const Container = styled.section`
         justify-content: center;
         align-items: center;
 
-    height: 90vh;
+    height: 80vh;
     padding: 2rem;
 
     div {
         position: relative;
         
+        .vodumLogo_button {
+            background: transparent;
+            border: none;
+        }
+
         .vodumLogo {
             max-width: 100%;
         }
