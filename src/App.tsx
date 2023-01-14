@@ -1,14 +1,12 @@
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+import { NavLinks } from "./components/NavLinks";
 import Highlights from "./components/Highlights";
 import { GlobalStyle } from "./styles/globals";
 
 export function App() {
   return (
     <>
-      <Header />
+      <NavLinks />
       <Highlights />
-      <Footer />
       
       <GlobalStyle />
     </>

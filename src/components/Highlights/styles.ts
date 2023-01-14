@@ -7,7 +7,7 @@ export const Container = styled.section`
         justify-content: center;
         align-items: center;
 
-    height: 80vh;
+    height: 90vh;
     padding: 2rem;
 
     div {
@@ -26,15 +26,15 @@ export const Container = styled.section`
             display: flex;
                 align-items: center;
 
-            width: 25%;
+            width: 30%;
 
             position: absolute;
-                bottom: -8%;
+                bottom: -12%;
                 right: 8%;
 
             .offLogo__byText {
                 margin-top: 15%;
-                width: 12%;
+                width: 17%;
             }
 
             .offLogo__off1566Link {
